@@ -1,7 +1,6 @@
 package com.ankitacodes.Ecom.service.serviceImpl;
 
 import com.ankitacodes.Ecom.constants.AppConstants;
-import com.ankitacodes.Ecom.controller.UserController;
 import com.ankitacodes.Ecom.exception.ResourceNotFoundException;
 import com.ankitacodes.Ecom.dao.UserRepository;
 import com.ankitacodes.Ecom.model.User;
@@ -12,11 +11,13 @@ import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+
 
 
 import java.util.List;
@@ -28,6 +29,8 @@ public class UserServiceImpl implements UserService {
     Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
     @Autowired
     private UserRepository userRepository;
+//    @Value("${user.profile.image.path}")
+//    private String imagepath;
 
     @Autowired
     private ModelMapper modelmapper;
@@ -75,12 +78,23 @@ public class UserServiceImpl implements UserService {
         logger.info("Initiating dao call for delete user with userId:{}",userId);
         User user = this.userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException(AppConstants.USER_NOT_FOUND));
+
+        //delete user's profile image
+        //images/user/abc.png
+//        String fullpath = imagepath + user.getImageName();
+//        try{
+//            Path path=Paths.get(fullpath);
+//            Files.delete(path);
+//        }catch(NoSuchFileException ex){
+//            logger.info("User image not found in folder");
+//            ex.printStackTrace();
+//        }catch(IOException iox){
+//            iox.printStackTrace();
+//        }
+
         user.setIsActive(AppConstants.INACTIVE);
-        logger.info("completed dao call for delete user");
-
         this.userRepository.save(user);
-
-
+        logger.info("completed dao call for delete user");
     }
 
     @Override
