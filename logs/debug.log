@@ -1,27 +1,16 @@
-2023-04-01 19:52:51,868 INFO  StartupInfoLogger:55 - [] Starting EcomApplication using Java 17.0.6 on DESKTOP-E3OJFJH with PID 10376 (E:\Ecom\target\classes started by ANURAG in E:\Ecom)
-2023-04-01 19:52:51,888 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-01 19:52:51,890 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-01 19:53:00,447 INFO  StartupInfoLogger:61 - [] Started EcomApplication in 9.344 seconds (JVM running for 10.805)
-2023-04-01 19:56:19,264 INFO  UserController:153 - [] Initiating service call for finding all users
-2023-04-01 19:56:19,265 INFO  UserServiceImpl:127 - [] Initiating dao call for finding all users
-2023-04-01 19:56:19,947 INFO  UserServiceImpl:147 - [] Completed dao call for finding all users
-2023-04-01 19:56:19,948 INFO  UserController:155 - [] Completed service call for finding all users
-2023-04-01 20:18:03,109 INFO  UserController:153 - [] Initiating service call for finding all users
-2023-04-01 20:18:03,954 INFO  UserServiceImpl:127 - [] Initiating dao call for finding all users
-2023-04-01 20:18:06,199 INFO  UserServiceImpl:147 - [] Completed dao call for finding all users
-2023-04-01 20:18:06,200 INFO  UserController:155 - [] Completed service call for finding all users
-2023-04-01 20:21:15,946 INFO  StartupInfoLogger:55 - [] Starting EcomApplication using Java 17.0.6 on DESKTOP-E3OJFJH with PID 11384 (E:\Ecom\target\classes started by ANURAG in E:\Ecom)
-2023-04-01 20:21:15,951 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-01 20:21:15,951 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-01 20:21:38,758 INFO  StartupInfoLogger:61 - [] Started EcomApplication in 27.957 seconds (JVM running for 43.875)
-2023-04-01 20:21:49,744 INFO  UserController:153 - [] Initiating service call for finding all users
-2023-04-01 20:21:49,744 INFO  UserServiceImpl:127 - [] Initiating dao call for finding all users
-2023-04-01 20:21:50,291 INFO  UserServiceImpl:147 - [] Completed dao call for finding all users
-2023-04-01 20:23:41,293 INFO  StartupInfoLogger:55 - [] Starting EcomApplication using Java 17.0.6 on DESKTOP-E3OJFJH with PID 10416 (E:\Ecom\target\classes started by ANURAG in E:\Ecom)
-2023-04-01 20:23:41,299 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-04-01 20:23:41,300 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-01 20:23:51,226 INFO  StartupInfoLogger:61 - [] Started EcomApplication in 10.752 seconds (JVM running for 12.47)
-2023-04-01 20:23:58,606 INFO  UserController:153 - [] Initiating service call for finding all users
-2023-04-01 20:23:58,607 INFO  UserServiceImpl:127 - [] Initiating dao call for finding all users
-2023-04-01 20:23:58,792 INFO  UserServiceImpl:147 - [] Completed dao call for finding all users
-2023-04-01 20:23:58,793 INFO  UserController:155 - [] Completed service call for finding all users
+2023-04-04 18:39:00,441 INFO  StartupInfoLogger:55 - [] Starting EcomApplication using Java 17.0.6 on DESKTOP-E3OJFJH with PID 10176 (E:\Ecom\target\classes started by ANURAG in E:\Ecom)
+2023-04-04 18:39:00,451 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 18:39:00,454 INFO  SpringApplication:637 - [] The following 1 profile is active: "qa"
+2023-04-04 18:39:21,647 INFO  StartupInfoLogger:61 - [] Started EcomApplication in 22.597 seconds (JVM running for 30.021)
+2023-04-04 18:55:06,330 INFO  StartupInfoLogger:55 - [] Starting EcomApplication using Java 17.0.6 on DESKTOP-E3OJFJH with PID 10504 (E:\Ecom\target\classes started by ANURAG in E:\Ecom)
+2023-04-04 18:55:06,343 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-04 18:55:06,356 INFO  SpringApplication:637 - [] The following 1 profile is active: "qa"
+2023-04-04 18:55:36,355 INFO  StartupInfoLogger:61 - [] Started EcomApplication in 38.542 seconds (JVM running for 71.912)
+2023-04-04 18:58:37,792 INFO  UserController:53 - [] Initiating service call for save user
+2023-04-04 18:58:37,793 INFO  UserServiceImpl:43 - [] Initiating dao call for save user
+2023-04-04 18:58:38,317 INFO  UserServiceImpl:49 - [] completed dao call for save user
+2023-04-04 18:58:38,317 INFO  UserController:55 - [] completed service call for save user
+2023-04-04 18:59:16,033 INFO  UserController:153 - [] Initiating service call for finding all users
+2023-04-04 18:59:16,034 INFO  UserServiceImpl:127 - [] Initiating dao call for finding all users
+2023-04-04 18:59:16,198 INFO  UserServiceImpl:147 - [] Completed dao call for finding all users
+2023-04-04 18:59:16,198 INFO  UserController:155 - [] Completed service call for finding all users
