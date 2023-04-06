@@ -14,6 +14,8 @@ public class AppConstants {
     public static final String USER_NOT_FOUND = "Oops...! User Not found";
     public static final String CATEGORY_NOT_FOUND = "Oops...! Category Not found";
 
+    public static final String PRODUCT_NOT_FOUND= "Oops...! Product Not found";
+
     public static final String USER_IMAGE_SUCCESS= "User Image uploaded successfully";
 
     public static final String CATEGORY_IMAGE_SUCCESS= "Cover Image uploaded successfully";
