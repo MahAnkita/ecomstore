@@ -79,6 +79,7 @@ public class UserServiceImpl implements UserService {
         User user = this.userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException(AppConstants.USER_NOT_FOUND));
 
+        this.userRepository.delete(user);
         //delete user's profile image
         //images/user/abc.png
 //        String fullpath = imagepath + user.getImageName();
@@ -92,9 +93,10 @@ public class UserServiceImpl implements UserService {
 //            iox.printStackTrace();
 //        }
 
-        user.setIsActive(AppConstants.INACTIVE);
-        this.userRepository.save(user);
-        logger.info("completed dao call for delete user");
+        //user soft delete feature
+//        user.setIsActive(AppConstants.INACTIVE);
+//        this.userRepository.save(user);
+//        logger.info("completed dao call for delete user");
     }
 
     @Override
