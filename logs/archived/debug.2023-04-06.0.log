@@ -1,0 +1,4 @@
+2023-04-06 19:17:00,153 INFO  StartupInfoLogger:55 - [] Starting EcomApplication using Java 17.0.6 on DESKTOP-E3OJFJH with PID 9644 (E:\Ecom\target\classes started by ANURAG in E:\Ecom)
+2023-04-06 19:17:00,159 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-06 19:17:00,160 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-06 19:17:13,189 INFO  StartupInfoLogger:61 - [] Started EcomApplication in 15.254 seconds (JVM running for 20.545)
