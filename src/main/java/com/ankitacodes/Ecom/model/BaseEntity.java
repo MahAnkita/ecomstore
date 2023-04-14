@@ -13,7 +13,6 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @MappedSuperclass
 public  class BaseEntity implements Serializable {
 
