@@ -8,7 +8,6 @@ import javax.persistence.MappedSuperclass;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @MappedSuperclass
 public class BaseDto {
 
