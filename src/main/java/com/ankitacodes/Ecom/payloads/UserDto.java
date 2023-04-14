@@ -9,6 +9,7 @@ import javax.validation.constraints.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class UserDto extends BaseDto {
 
     private Long userId;
